@@ -1,5 +1,5 @@
 homepage: "clearbrain.com",
 documentation: "https://success.clearbrain.com/",
 versions:
-  - sha: ""
+  - sha: d573376fb9c28fd211e634fede6f0a4724a9f105
     changeNotes: Initial Version
