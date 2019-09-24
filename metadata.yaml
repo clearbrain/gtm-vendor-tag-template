@@ -1,0 +1,5 @@
+homepage: "clearbrain.com",
+documentation: "https://success.clearbrain.com/",
+versions:
+  - sha: ""
+    changeNotes: Initial Version
