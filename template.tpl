@@ -1,8 +1,16 @@
-﻿___INFO___
+___TERMS_OF_SERVICE___
+
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
+
+___INFO___
 
 {
   "displayName": "ClearBrain Pixel",
   "description": "The ClearBrain Pixel template sends events you specify to the ClearBrain predictive analytics platform.  We'll help you build predictive models and understand which actions cause users to convert.",
+  "categories": ["ANALYTICS", "EXPERIMENTATION", "CONVERSION_TRACKING", "REMARKETING"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -167,7 +175,7 @@ log('data = ', data);
 
 const eventType = encodeUriComponent(data.eventType);
 const writeKey = encodeUriComponent(data.writeKey);
-const params = data.parameters.map(param => 
+const params = data.parameters.map(param =>
   encodeUriComponent(param.name) + '=' + encodeUriComponent(param.value));
 const baseUrl = 'https://api.clearbrain.com/v1/gtm/' + eventType + '?writeKey=' + writeKey;
 const url = [baseUrl].concat(params).join('&');
