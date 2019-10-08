@@ -1,5 +1,7 @@
-homepage: "clearbrain.com",
-documentation: "https://success.clearbrain.com/",
+homepage: "clearbrain.com"
+documentation: "https://success.clearbrain.com/"
 versions:
+  - sha: 9fd870d06ddd159f31435269e1d40176ecf4caeb
+    changeNotes: Update API endpoint URL
   - sha: 50112b24a4a8fb9f195bdcfffa5930e8746a61b5
     changeNotes: Initial Version
