@@ -150,7 +150,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://api.clearbrain.com/v1/pixel/*"
+                "string": "https://api.clearbrain.com/v1/gtm/*"
               }
             ]
           }
